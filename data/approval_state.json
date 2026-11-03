@@ -1,0 +1,54 @@
+{
+  "ST-20261104-0002": {
+    "owner": "demo_admin",
+    "status": "Draft",
+    "history": [
+      {
+        "actor": "demo_admin",
+        "timestamp": "2026-11-03T07:17:32+00:00",
+        "old_status": "Draft",
+        "new_status": "Pending",
+        "action": "Submit",
+        "comment": ""
+      },
+      {
+        "actor": "demo_admin",
+        "timestamp": "2026-11-03T07:17:58+00:00",
+        "old_status": "Pending",
+        "new_status": "Rejected",
+        "action": "Reject",
+        "comment": "ไม่ให้ผ่าน"
+      },
+      {
+        "actor": "demo_user",
+        "timestamp": "2026-11-03T07:25:10+00:00",
+        "old_status": "Rejected",
+        "new_status": "Draft",
+        "action": "Revise",
+        "comment": ""
+      }
+    ]
+  },
+  "ST-20261105-0001": {
+    "owner": "demo_user",
+    "status": "Approved",
+    "history": [
+      {
+        "actor": "demo_user",
+        "timestamp": "2026-11-03T07:22:21+00:00",
+        "old_status": "Draft",
+        "new_status": "Pending",
+        "action": "Submit",
+        "comment": ""
+      },
+      {
+        "actor": "demo_approver",
+        "timestamp": "2026-11-03T07:23:35+00:00",
+        "old_status": "Pending",
+        "new_status": "Approved",
+        "action": "Approve",
+        "comment": ""
+      }
+    ]
+  }
+}
